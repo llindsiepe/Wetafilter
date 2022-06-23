@@ -26,6 +26,7 @@ export const TextAbout = styled("div")({
   marginLeft: "10%",
   marginRight: "10%",
   marginBottom: "2%",
+  fontSize: "1.7rem",
 });
 
 export const Testimonial = styled("div")({
@@ -50,7 +51,7 @@ export const TextPolitica = styled("div")({
   color: "#30456E",
 });
 
-export const TextPoliticaH6 = styled("h6")({
+export const TextPoliticaH6 = styled("h5")({
   width: "80%",
   marginTop: "5%",
   textAlign: "justify",

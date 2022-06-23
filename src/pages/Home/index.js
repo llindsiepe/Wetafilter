@@ -5,7 +5,6 @@ import Avaliação from "../../imagens/Avaliação.png";
 
 import Navbar from "../../components/Navbar";
 import Rodape from "../../components/Rodape";
-import Qualities from "../../components/Qualities";
 import ButtonClean from "../../components/ButtonClean";
 import BannerInferior from "../../components/BannerInferior";
 import CardProduct from "../../components/CardProduct";
@@ -26,6 +25,9 @@ import {
   TextBannerH1,
   TextAboutUsH1,
   TextAboutUsH6,
+  Qualities,
+  QualitiesTitle,
+  QualitiesData,
 } from "./styles.js";
 
 function Home() {
@@ -34,7 +36,7 @@ function Home() {
       <Navbar />
       <Banner>
         <TextBanner>
-          <TextBannerH1 style={{ marginBottom: "8%" }}>
+          <TextBannerH1>
             <b>
               EXCELÊNCIA, TECNOLOGIA <br />
               <span style={{ color: "#ED3237" }}>& </span> SEGURANÇA.
@@ -58,25 +60,36 @@ function Home() {
             <b>Conheça</b> quem entende do assunto
           </TextAboutUsH1>
           <TextAboutUsH6>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet in
-            non diam, orci velit. Tristique dui ullamcorper quis fermentum,
-            tempus, dui ipsum lorem.
+            Fundada em 2006, a Wetafilter é uma empresa especializada em filtros
+            industriais com profissionais com mais de 40 anos no ramo.
           </TextAboutUsH6>
-          <Qualities
-            title="Experiência"
-            text="+40 anos"
-            description="Atuando no ramo"
-          />
-          <Qualities
-            title="Compromisso"
-            text="+1.000"
-            description="Clientes satisfeitos"
-          />
-          <Qualities
-            title="Investimento"
-            text="+1.200"
-            description="Produtos diferentes"
-          />
+          <Qualities>
+            <QualitiesTitle>
+              <h2 class="style">
+                <b>Experiência</b>
+              </h2>
+              <h2 class="style">
+                <b>Compromisso</b>
+              </h2>
+              <h2 class="style">
+                <b>Investimento</b>
+              </h2>
+            </QualitiesTitle>
+            <QualitiesData>
+              <h1>
+                <b>+40 anos</b>
+              </h1>
+              <h5>Atuando no ramo</h5>
+              <h1>
+                <b>+1.000</b>
+              </h1>
+              <h5>Clientes satisfeitos</h5>
+              <h1>
+                <b>+1.200</b>
+              </h1>
+              <h5>Produtos diferentes</h5>
+            </QualitiesData>
+          </Qualities>
         </TextAboutUs>
       </AboutUs>
 
@@ -90,24 +103,27 @@ function Home() {
               <b>catálogo</b>
             </h2>
             <TextProductsH6>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
-              pellentesque pulvinar platea ultricies porttitor quis laoreet
-              imperdiet.
+              Seguindo as normas (DIN, ASTM, ASME e ISO), contamos com
+              profissionais especializados, com intuito de fornecer produtos com
+              novas tecnologias e elevado custo benefício aos clientes
             </TextProductsH6>
+            <h5 style={{ color: "#30456E", fontWeight: "bold" }}>
+              Confira o catálogo completo
+            </h5>
           </TextProducts>
         </Products>
         <Cards>
           <CardProduct
             name="Filtro Bag"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend pellentesque pulvinar platea ultricies porttitor quis laoreet imperdiet."
+            text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
           <CardProduct
-            name="Filtro Bag"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend pellentesque pulvinar platea ultricies porttitor quis laoreet imperdiet."
+            name="Filtro Multi Bag"
+            text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
           <CardProduct
-            name="Filtro Bag"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend pellentesque pulvinar platea ultricies porttitor quis laoreet imperdiet."
+            name="Filtro Cesto"
+            text="Carcaça Filtro tipo Cesto, dispensam o uso de quaisquer ferramentas para sua manutenção além de possuírem uma construção bastante simples e robusta. "
           />
         </Cards>
       </DivProducts>

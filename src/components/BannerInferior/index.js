@@ -24,7 +24,7 @@ export default function BannerInferior() {
           </h5>
         </TextBannerInf>
         <ButtonBannerInf>
-          <ButtonClean title={"COTAÇÃO ONLINE"} />
+          <ButtonClean title={"ATENDIMENTO"} />
         </ButtonBannerInf>
       </Main>
     </>

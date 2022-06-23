@@ -45,24 +45,32 @@ function Sobre() {
 
       <TextAbout>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue sit
-          tortor, donec nisi. Ipsum morbi enim diam auctor blandit libero. Velit
-          et integer adipiscing massa cras. Eu velit venenatis pellentesque
-          nisl. Pretium suscipit integer fringilla risus enim quis. Aliquam
-          gravida ornare neque varius erat libero. Phasellus quam tellus vitae
-          ultricies vel mattis massa velit diam. Nam tristique pellentesque
-          tortor pellentesque duis amet. Elit, ornare odio euismod habitant
-          sapien, aliquam.
+          Fundada em 2006, a Wetafilter é uma empresa especializada em filtros
+          industriais com profissionais com mais de 40 anos no ramo. Seguindo as
+          normas (DIN, ASTM, ASME e ISO), contamos com profissionais
+          especializados, com intuito de fornecer produtos com novas tecnologias
+          e elevado custo benefício aos clientes, desde a avaliação e
+          especificações técnica, até o fornecimento. Atendemos diversos
+          segmentos da indústria, Alimentícia, Metalúrgica, Usinas e Refinarias,
+          Farmacêutica, Indústria automobilística entre outras.
         </p>{" "}
-        Vestibulum massa interdum nisl sed sed dui. Ultrices pulvinar nullam
-        luctus nunc, mi, sollicitudin. Purus amet ut gravida fringilla erat in
-        at lectus sit. Turpis libero nec in integer cum magna mauris viverra.
-        Morbi sed at ut pulvinar mi. Aenean amet, risus quis non bibendum.
-        Faucibus nibh pharetra justo, cras nisl. Urna, at purus nibh
-        pellentesque pellentesque ultricies vestibulum nisi sed. Sit tristique
-        rhoncus fames metus montes, elit morbi posuere tincidunt. Viverra ipsum
-        pellentesque in euismod. Porta lobortis aenean magna tellus tellus eget
-        magna.
+        <span style={{ color: "#30456E" }}>
+          <b>Missão:</b>
+        </span>{" "}
+        Fornecer produtos com novas tecnologias e custo benefício aos seus
+        clientes, desde á avaliação e especificações técnica, fornecimento e pós
+        vendas.
+        <br />
+        <span style={{ color: "#30456E" }}>
+          <b>Valores:</b>
+        </span>{" "}
+        Satisfação do cliente, Valorizar e respeitar às pessoas, Ética e
+        Transparência com nossos colaboradores.
+        <br />
+        <span style={{ color: "#30456E" }}>
+          <b>Visão:</b>
+        </span>{" "}
+        Aprimorar nossos produtos e ser referência no ramo de filtração.
       </TextAbout>
 
       <DivPolitica>

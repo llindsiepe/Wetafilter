@@ -16,6 +16,10 @@ export const TextCard = styled("div")({
   marginLeft: "10%",
   marginTop: "10%",
   marginRight: "10%",
+
+  h3: {
+    textAlign: "left",
+  },
 });
 
 export const Texth6 = styled("h6")({

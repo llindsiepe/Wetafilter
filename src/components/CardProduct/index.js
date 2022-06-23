@@ -14,7 +14,7 @@ export default function CardProduct({ name, text }) {
           <img src={ImageMockup} width="100%" />
         </ImageCard>
         <TextCard>
-          <h2>{name}</h2>
+          <h3>{name}</h3>
           <Texth6>{text}</Texth6>
         </TextCard>
         <Download>
