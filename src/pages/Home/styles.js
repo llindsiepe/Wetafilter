@@ -15,7 +15,7 @@ export const OptionsBanner = styled("div")({
 });
 
 export const About = styled("div")({
-  marginLeft: "4%",
+  marginLeft: "2%",
   marginTop: "auto",
   marginBottom: "auto",
   color: "white",
@@ -34,14 +34,16 @@ export const TextBannerH1 = styled("h1")({
 
 export const AboutUs = styled("div")({
   display: "flex",
+  marginBottom: "10%",
 });
 
 export const ImageAboutUs = styled("div")({
   marginRight: "10%",
+  marginLeft: "10%",
 });
 
 export const TextAboutUs = styled("div")({
-  marginTop: "10rem",
+  marginTop: "8rem",
 });
 
 export const TextAboutUsH1 = styled("h1")({

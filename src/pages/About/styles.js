@@ -8,7 +8,7 @@ export const Banner = styled("div")({
 });
 
 export const TextBanner = styled("div")({
-  marginTop: "15%",
+  marginTop: "10%",
   marginLeft: "5%",
   width: "35%",
   color: "#30456E",

@@ -33,6 +33,5 @@ export const ImageCard = styled("div")({
 
 export const Download = styled("div")({
   marginLeft: "14%",
-  marginTop: "8%",
   marginRight: "14%",
 });

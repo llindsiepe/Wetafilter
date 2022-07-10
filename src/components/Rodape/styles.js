@@ -3,33 +3,45 @@ import { styled } from "@mui/system";
 
 export const Main = styled("div")({
   width: "100%",
-  height: 420,
+  height: "30rem",
   backgroundColor: "#f1f1f1",
+});
+
+export const Container = styled("div")({
   display: "flex",
+  justifyContent: "space-between",
 });
 
-export const Info = styled("div")({
-  marginTop: "auto",
-  marginBottom: "auto",
-});
-
-export const ImageInfo = styled("div")({
-  marginLeft: "10%",
-});
-
-export const TextInfo = styled("div")({
-  marginLeft: "10%",
-  width: "30%",
-  marginTop: "6%",
-  textAlign: "justify",
-});
-
-export const Redes = styled("div")({
-  marginTop: "auto",
-  marginBottom: "auto",
+export const Law = styled("h6")({
+  color: "#30456E",
+  marginTop: "3%",
   textAlign: "center",
 });
 
-export const ImageRedes = styled("div")({
-  marginTop: 20,
+export const Info = styled("div")({
+  paddingTop: "5%",
+  paddingRight: "5%",
+  marginLeft: "5%",
+});
+
+export const Redes = styled("div")({
+  marginTop: "3%",
+  display: "flex",
+});
+
+export const AboutUs = styled("div")({
+  color: "#30456E",
+  marginTop: "4%",
+  marginBottom: "auto",
+
+  h5: { width: "50%", textAlign: "justify" },
+});
+
+export const Navegue = styled("div")({
+  color: "#30456E",
+  marginTop: "4%",
+  marginBottom: "auto",
+  marginRight: "10%",
+
+  h5: { width: "100%", textAlign: "justify" },
 });

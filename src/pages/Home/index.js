@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 import ImageAbout from "../../imagens/ImageAbout.png";
 import Avaliação from "../../imagens/Avaliação.png";
@@ -31,6 +32,12 @@ import {
 } from "./styles.js";
 
 function Home() {
+  const history = useHistory();
+
+  function handleClick() {
+    history.push("/sobre");
+  }
+
   return (
     <>
       <Navbar />
@@ -43,7 +50,7 @@ function Home() {
             </b>
           </TextBannerH1>
           <OptionsBanner>
-            <ButtonClean title="Nossos produtos" />
+            <ButtonClean title="Nossos produtos" onClick={handleClick} />
             <About>
               <b>+ CONHEÇA-NOS</b>
             </About>
@@ -52,7 +59,7 @@ function Home() {
       </Banner>
       <AboutUs>
         <ImageAboutUs>
-          <img src={ImageAbout} />
+          <img src={ImageAbout} width="450" height="550" />
         </ImageAboutUs>
         <TextAboutUs>
           <img src={Avaliação} />
@@ -81,13 +88,13 @@ function Home() {
               </h1>
               <h5>Atuando no ramo</h5>
               <h1>
-                <b>+1.000</b>
+                <b>+500</b>
               </h1>
               <h5>Clientes satisfeitos</h5>
               <h1>
-                <b>+1.200</b>
+                <b>+10.000</b>
               </h1>
-              <h5>Produtos diferentes</h5>
+              <h5>Itens fabricados</h5>
             </QualitiesData>
           </Qualities>
         </TextAboutUs>

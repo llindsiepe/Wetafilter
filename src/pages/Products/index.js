@@ -2,9 +2,6 @@ import React from "react";
 
 import Peças from "../../imagens/imagepack.png";
 import Avaliação from "../../imagens/avaliacao.png";
-import rastreamento from "../../imagens/rastreamento.png";
-import boxgroup from "../../imagens/boxgroup.png";
-import security from "../../imagens/security.png";
 
 import Navbar from "../../components/Navbar";
 import Rodape from "../../components/Rodape";

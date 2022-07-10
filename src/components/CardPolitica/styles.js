@@ -3,12 +3,13 @@ import { styled } from "@mui/system";
 
 export const Cards = styled("div")({
   width: 300,
-  height: 380,
+  height: 250,
   borderRadius: 9,
   backgroundColor: "#ffffff",
   boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.05)",
   marginLeft: "2%",
   marginBottom: "15%",
+  marginTop: "10%",
 });
 
 export const TextCard = styled("div")({

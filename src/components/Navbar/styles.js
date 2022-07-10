@@ -5,7 +5,6 @@ export const Main = styled("div")({
   width: "100%",
   height: 90,
   backgroundColor: "white",
-  boxShadow: "0px 0px 20px #e5e5e5",
   display: "flex",
   justifyContent: "space-between",
 });

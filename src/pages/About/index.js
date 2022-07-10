@@ -5,6 +5,7 @@ import Avaliação from "../../imagens/avaliacao.png";
 import rastreamento from "../../imagens/rastreamento.png";
 import boxgroup from "../../imagens/boxgroup.png";
 import security from "../../imagens/security.png";
+import ImageAbout from "../../imagens/aboutImage.png";
 
 import Navbar from "../../components/Navbar";
 import Rodape from "../../components/Rodape";
@@ -81,28 +82,16 @@ function Sobre() {
               <b>qualidade</b>
             </h1>
             <TextPoliticaH6>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
-              pellentesque pulvinar platea ultricies porttitor quis laoreet
-              imperdiet.
+              Nossa política de qualidade reforça a posição de referência
+              alcançada no mercado fabricando produtos inovadores, com alto
+              desempenho e qualidade.
             </TextPoliticaH6>
           </TextPolitica>
         </Politica>
         <Cards>
-          <CardPolitica
-            name="Segurança"
-            src={security}
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend pellentesque pulvinar platea ultricies porttitor quis laoreet imperdiet."
-          />
-          <CardPolitica
-            name="Avaliação"
-            src={boxgroup}
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend pellentesque pulvinar platea ultricies porttitor quis laoreet imperdiet."
-          />
-          <CardPolitica
-            name="Rastreamento"
-            src={rastreamento}
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend pellentesque pulvinar platea ultricies porttitor quis laoreet imperdiet."
-          />
+          <CardPolitica name="Segurança" src={security} />
+          <CardPolitica name="Avaliação" src={boxgroup} />
+          <CardPolitica name="Rastreamento" src={rastreamento} />
         </Cards>
       </DivPolitica>
 

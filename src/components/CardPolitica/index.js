@@ -6,7 +6,7 @@ import Avaliação from "../../imagens/avaliacao.png";
 
 import Button from "../Button/index.js";
 
-export default function CardProduct({ name, text, src }) {
+export default function CardProduct({ name, src }) {
   return (
     <>
       <Cards>
@@ -15,7 +15,6 @@ export default function CardProduct({ name, text, src }) {
         </ImageCard>
         <TextCard>
           <TextName>{name}</TextName>
-          <Texth6>{text}</Texth6>
         </TextCard>
       </Cards>
     </>
