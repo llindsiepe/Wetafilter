@@ -30,6 +30,7 @@ import {
   QualitiesTitle,
   QualitiesData,
 } from "./styles.js";
+import { Grid } from "@mui/material";
 
 function Home() {
   const history = useHistory();
@@ -101,39 +102,45 @@ function Home() {
       </AboutUs>
 
       <BannerInferior />
-      <DivProducts>
-        <Products>
-          <TextProducts>
-            <h2>
-              Nossos produtos
-              <br /> <span style={{ color: "#ED3237" }}>& </span>{" "}
-              <b>catálogo</b>
-            </h2>
-            <TextProductsH6>
-              Seguindo as normas (DIN, ASTM, ASME e ISO), contamos com
-              profissionais especializados, com intuito de fornecer produtos com
-              novas tecnologias e elevado custo benefício aos clientes
-            </TextProductsH6>
-            <h5 style={{ color: "#30456E", fontWeight: "bold" }}>
-              Confira o catálogo completo
-            </h5>
-          </TextProducts>
-        </Products>
-        <Cards>
+      <Grid container direction="row" spacing={3}>
+        <Grid item xs={12} md={3} xl={3}>
+          <Products>
+            <TextProducts>
+              <h2>
+                Nossos produtos
+                <br /> <span style={{ color: "#ED3237" }}>& </span>{" "}
+                <b>catálogo</b>
+              </h2>
+              <TextProductsH6>
+                Seguindo as normas (DIN, ASTM, ASME e ISO), contamos com
+                profissionais especializados, com intuito de fornecer produtos
+                com novas tecnologias e elevado custo benefício aos clientes
+              </TextProductsH6>
+              <h5 style={{ color: "#30456E", fontWeight: "bold" }}>
+                Confira o catálogo completo
+              </h5>
+            </TextProducts>
+          </Products>
+        </Grid>
+        <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Bag"
             text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
+        </Grid>
+        <Grid item xs={12} md={3} xl={3}> 
           <CardProduct
             name="Filtro Multi Bag"
             text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
+        </Grid>
+        <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Cesto"
             text="Carcaça Filtro tipo Cesto, dispensam o uso de quaisquer ferramentas para sua manutenção além de possuírem uma construção bastante simples e robusta. "
           />
-        </Cards>
-      </DivProducts>
+        </Grid>
+      </Grid>
 
       <Rodape />
     </>

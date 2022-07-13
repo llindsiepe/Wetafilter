@@ -7,6 +7,7 @@ export const Main = styled("div")({
   height: 120,
   backgroundColor: "#30456e",
   marginTop: "5%",
+  marginBottom: "5%"
 });
 
 export const ImageBannerInf = styled("div")({

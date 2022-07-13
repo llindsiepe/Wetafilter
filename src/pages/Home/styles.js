@@ -61,7 +61,7 @@ export const Products = styled("div")({
 
 export const TextProducts = styled("div")({
   marginLeft: "20%",
-  marginTop: "50%",
+  marginTop: "20%",
 });
 
 export const TextProductsH6 = styled("h6")({

@@ -19,6 +19,8 @@ import {
   Redes,
 } from "./styles";
 
+import { Grid } from "@mui/material";
+
 function Sobre() {
   return (
     <>
@@ -31,56 +33,42 @@ function Sobre() {
         <h5>Tire suas dúvidas, solicite orçamentos e muito mais</h5>
       </Title>
 
-      <Container>
-        <CardContact>
-          <h3>
-            <b>Cadastre-se</b> e entraremos em contato
-          </h3>
-          <ButtonSend>Enviar</ButtonSend>
-        </CardContact>
-
-        <InfoContact>
-          <Icons>
-            <img src={WhatsappC} width="70rem" height="70rem" />
+      <Grid container >
+        <Grid item xs={8} spacing={5}>
+          <CardContact>
             <h3>
-              <b>WhatsApp</b>
-              <br />
-              (11)00000-0000
+              <b>Cadastre-se</b> e entraremos em contato
             </h3>
-          </Icons>
-          <Icons>
-            <img src={EmailC} width="70rem" height="70rem" />
-            <h3>
-              <b>E-mail</b>
-              <br />
-              wetafilter@wetafilter.com.br
-            </h3>
-          </Icons>
-          <Line />
-          <Redes>
-            <h3>Siga-nos nas redes sociais</h3>
-            <img src={FacebookC} style={{ marginRight: "4%" }} />
-            <img src={InstagramC} />
-          </Redes>
-        </InfoContact>
-      </Container>
-
-      {/* <Contact>
-        <ImageContact>
-          <img src={Phone} />
-        </ImageContact>
-        <TextContact>
-          <TextH1>
-            CONVERSE CONOSCO{" "}
-            <span style={{ color: "#00923F" }}>
-              <b>& </b>
-            </span>{" "}
-            <b>SIGA NOS NAS REDES.</b>
-          </TextH1>
-        </TextContact>
-      </Contact>
-
-      <BannerInferior /> */}
+            <ButtonSend>Enviar</ButtonSend>
+          </CardContact>
+        </Grid>
+        <Grid item>
+          <InfoContact>
+            <Icons>
+              <img src={WhatsappC} width="70rem" height="70rem" />
+              <h3>
+                <b>WhatsApp</b>
+                <br />
+                (11)00000-0000
+              </h3>
+            </Icons>
+            <Icons>
+              <img src={EmailC} width="70rem" height="70rem" />
+              <h3>
+                <b>E-mail</b>
+                <br />
+                wetafilter@wetafilter.com.br
+              </h3>
+            </Icons>
+            <Line />
+            <Redes>
+              <h3>Siga-nos nas redes sociais</h3>
+              <img src={FacebookC} style={{ marginRight: "4%" }} />
+              <img src={InstagramC} />
+            </Redes>
+          </InfoContact>
+        </Grid>
+      </Grid>
 
       <Rodape />
     </>
