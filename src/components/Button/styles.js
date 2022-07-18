@@ -10,7 +10,7 @@ export const Option = styled("button")({
   color: "white",
   border: "none",
 
-  marginTop: "auto",
+  marginTop: "1rem",
 });
 
 export const Text = styled("h5")({

@@ -4,11 +4,14 @@ import { styled } from "@mui/system";
 export const Main = styled("div")({
   width: "100%",
   minHeight: "30rem",
-  height: '100%',
+  height: "100%",
   backgroundColor: "#f1f1f1",
+  marginTop: "10rem",
+  alignItems: "center",
 });
 
 export const Container = styled("div")({
+  marginTop: "100px",
   display: "flex",
   justifyContent: "space-between",
 });

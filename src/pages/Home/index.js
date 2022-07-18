@@ -51,7 +51,11 @@ function Home() {
             </b>
           </TextBannerH1>
           <OptionsBanner>
-            <ButtonClean title="Nossos produtos" onClick={handleClick} />
+            <ButtonClean
+              title="Nossos produtos"
+              onClick={handleClick}
+              url={"/Produtos"}
+            />
             <About>
               <b>+ CONHEÇA-NOS</b>
             </About>
@@ -128,7 +132,7 @@ function Home() {
             text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
-        <Grid item xs={12} md={3} xl={3}> 
+        <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Multi Bag"
             text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
