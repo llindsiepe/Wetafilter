@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import Navbar from "../../components/Navbar";
 import Rodape from "../../components/Rodape";
@@ -19,9 +19,32 @@ import {
   Redes,
 } from "./styles";
 
-import { Grid } from "@mui/material";
+import { Grid, TextField } from "@mui/material";
+
+import emailjs from "emailjs-com";
 
 function Sobre() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_xjni3hb",
+        "template_zfnhszj",
+        form.current,
+        "bn4BnWI20PDvSZDCj"
+      )
+      .then(
+        (result) => {
+          alert("mensagem enviada com sucesso");
+        },
+        (error) => {
+          alert("falha ao mandar mensagem");
+        }
+      );
+  };
   return (
     <>
       <Navbar />
@@ -39,7 +62,17 @@ function Sobre() {
             <h3>
               <b>Cadastre-se</b> e entraremos em contato
             </h3>
+            <form ref={form} onSubmit={sendEmail}>
+            <input type="text" name="user_name" placeholder="Nome" /><br />
+
+            <input type="email" name="user_email" placeholder="Email" /><br />
+            <input type="text" name="number" placeholder="Número" /><br />
+
+            <textarea name="message" placeholder="Menssagem" />
+            <br />
+            <br />
             <ButtonSend>Enviar</ButtonSend>
+          </form>
           </CardContact>
         </Grid>
         <Grid item>

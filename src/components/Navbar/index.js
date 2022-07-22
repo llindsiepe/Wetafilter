@@ -18,10 +18,10 @@ export default function Navbar() {
           </Grid>
           <Grid item xs={12} sm ={12} md={4} xl={3}>
             <Menu style={{ display: "flex" }}>
-              <OptionMenu title={"Home"} />
-              <OptionMenu title={"Sobre"} />
-              <OptionMenu title={"Nossos produtos"} />
-              <OptionMenu title={"Contato"} />
+              <OptionMenu title={"Home"} url={'/'} />
+              <OptionMenu title={"Sobre"} url={'/sobre'} />
+              <OptionMenu title={"Nossos produtos"} url={'/produtos'} />
+              <OptionMenu title={"Contato"} url={'/contato'} />
             </Menu>
           </Grid>
           <Grid item xs={12} md={4} xl={3}>

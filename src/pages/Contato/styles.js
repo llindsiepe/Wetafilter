@@ -29,12 +29,12 @@ export const CardContact = styled("div")({
   },
 });
 
-export const ButtonSend = styled("div")({
+export const ButtonSend = styled("button")({
   marginTop: "5%",
   paddingTop: "1%",
   marginLeft: "auto",
   marginRight: "auto",
-
+  border: "none",
   textAlign: "center",
   width: "35rem",
   height: 40,

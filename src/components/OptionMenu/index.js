@@ -1,10 +1,13 @@
 import React from "react";
 import { Container } from "./styles.js";
 
-export default function Button({ title }) {
+import { useHistory } from "react-router-dom";
+
+export default function Button({ title, url }) {
+  const history = useHistory()
   return (
     <>
-      <Container>{title}</Container>
+      <Container onClick={() => { history.push(url) }} >{title}</Container>
     </>
   );
 }

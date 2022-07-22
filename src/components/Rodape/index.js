@@ -21,7 +21,7 @@ export default function Card() {
     <>
       <Main>
         <Grid container justifyContent={"space-around"}>
-          <Grid item>
+          <Grid item xs={12} md={4}>
             <Info>
               <img src={Logotipo} style={{ marginBottom: "10%" }} />
               <Redes>
@@ -31,7 +31,7 @@ export default function Card() {
               </Redes>
             </Info>
           </Grid>
-          <Grid item>
+          <Grid item xs={12} md={4}>
             <AboutUs>
               <h5>
                 <b>Sobre nós</b>
@@ -46,7 +46,7 @@ export default function Card() {
               </h5>
             </AboutUs>
           </Grid>
-          <Grid item>
+          <Grid item xs={12} md={4}>
             <Navegue>
               <h5>
                 <b>Navegue pelo site</b>

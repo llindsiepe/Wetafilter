@@ -31,6 +31,7 @@ import {
   QualitiesData,
 } from "./styles.js";
 import { Grid } from "@mui/material";
+import { Box } from "@mui/system";
 
 function Home() {
   const history = useHistory();
@@ -60,10 +61,15 @@ function Home() {
       </Banner>
       <AboutUs>
         <ImageAboutUs>
-          <img src={ImageAbout} width="450" height="550" />
+          <Box display={{ xs: "none", sm: "none", md: "block" }}>
+            <img src={ImageAbout} width="450" height="550" />
+          </Box>
         </ImageAboutUs>
         <TextAboutUs>
+        <Box display={{ xs: "none", sm: "none", md: "block" }}>
+
           <img src={Avaliação} />
+        </Box>
           <TextAboutUsH1>
             <b>Conheça</b> quem entende do assunto
           </TextAboutUsH1>
@@ -128,7 +134,7 @@ function Home() {
             text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
-        <Grid item xs={12} md={3} xl={3}> 
+        <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Multi Bag"
             text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
