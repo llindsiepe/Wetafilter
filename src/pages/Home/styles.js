@@ -14,11 +14,13 @@ export const OptionsBanner = styled("div")({
   display: "flex",
 });
 
-export const About = styled("div")({
+export const About = styled("button")({
   marginLeft: "2%",
   marginTop: "auto",
   marginBottom: "auto",
   color: "white",
+  border: "none",
+  background: "none",
 });
 
 export const TextBanner = styled("div")({

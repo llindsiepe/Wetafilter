@@ -52,7 +52,11 @@ function Home() {
             </b>
           </TextBannerH1>
           <OptionsBanner>
-            <ButtonClean title="Nossos produtos" onClick={handleClick} />
+            <ButtonClean
+              title="Nossos produtos"
+              onClick={handleClick}
+              url={"/Produtos"}
+            />
             <About>
               <b>+ CONHEÇA-NOS</b>
             </About>

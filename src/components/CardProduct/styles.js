@@ -3,7 +3,8 @@ import { styled } from "@mui/system";
 
 export const Cards = styled("div")({
   width: 300,
-  height: 440,
+  minHeight: 440,
+  height: "100%",
   borderRadius: 9,
   backgroundColor: "#ffffff",
   boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.05)",
