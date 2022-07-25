@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Main,
   ImageBannerInf,
@@ -9,15 +9,19 @@ import {
 import ButtonClean from "../ButtonClean";
 
 import Send from "../../imagens/send.png";
+import { Box } from "@mui/system";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function BannerInferior() {
   return (
     <>
       <Main>
-        <ImageBannerInf>
-          <img src={Send} />
-        </ImageBannerInf>
-        <TextBannerInf>
+        <Box display={{ xs: "none", sm: "none", md: "block" }}>
+          <ImageBannerInf>
+            <img src={Send} />
+          </ImageBannerInf>
+        </Box>
+        <TextBannerInf style={{ marginLeft: '15%' }}>
           <h4>ENTRE EM CONTATO CONOSCO</h4>
           <h5>
             SIMPLES, FÁCIL <b>& SEGURO.</b>

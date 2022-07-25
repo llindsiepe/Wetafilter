@@ -40,8 +40,7 @@ export const AboutUs = styled("div")({
 });
 
 export const ImageAboutUs = styled("div")({
-  marginRight: "10%",
-  marginLeft: "10%",
+  marginRight: "1%",
 });
 
 export const TextAboutUs = styled("div")({
@@ -49,12 +48,11 @@ export const TextAboutUs = styled("div")({
 });
 
 export const TextAboutUsH1 = styled("h1")({
-  width: "50%",
   color: "#30456E",
 });
 
 export const TextAboutUsH6 = styled("h5")({
-  width: "60%",
+  maxWidth: '80%'
 });
 
 export const Products = styled("div")({
@@ -91,7 +89,7 @@ export const Qualities = styled("div")({
 export const QualitiesTitle = styled("div")({
   h2: {
     marginBottom: "5.5rem",
-    marginRight: "5.5rem",
+    marginRight: "3rem",
     color: "#30456E",
   },
 });

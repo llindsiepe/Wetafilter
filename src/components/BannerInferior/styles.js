@@ -2,7 +2,6 @@ import * as React from "react";
 import { styled } from "@mui/system";
 
 export const Main = styled("div")({
-  display: "flex",
   width: "100%",
   height: 120,
   backgroundColor: "#30456e",

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
 import ImageAbout from "../../imagens/ImageAbout.png";
@@ -32,18 +32,27 @@ import {
 } from "./styles.js";
 import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 function Home() {
   const history = useHistory();
+  const [xs, setXs] = useState(
+    useMediaQuery((theme) => theme.breakpoints.up("xs"))
+  );
+  const sm = useMediaQuery((theme) => theme.breakpoints.up("sm"));
+  const md = useMediaQuery((theme) => theme.breakpoints.up("md"));
+  const lg = useMediaQuery((theme) => theme.breakpoints.up("lg"));
 
   function handleClick() {
     history.push("/sobre");
   }
 
+  console.log(xs, sm, md, lg);
+
   return (
     <>
       <Navbar />
-      <Banner>
+      <Banner style={{ width: xs ? "150%" : md ? "100%" : "100%" }}>
         <TextBanner>
           <TextBannerH1>
             <b>
@@ -70,10 +79,9 @@ function Home() {
           </Box>
         </ImageAboutUs>
         <TextAboutUs>
-        <Box display={{ xs: "none", sm: "none", md: "block" }}>
-
-          <img src={Avaliação} />
-        </Box>
+          <Box display={{ xs: "none", sm: "none", md: "block" }}>
+            <img src={Avaliação} />
+          </Box>
           <TextAboutUsH1>
             <b>Conheça</b> quem entende do assunto
           </TextAboutUsH1>
@@ -111,7 +119,7 @@ function Home() {
         </TextAboutUs>
       </AboutUs>
 
-      <BannerInferior />
+      <BannerInferior xs={xs} />
       <Grid container direction="row" spacing={3}>
         <Grid item xs={12} md={3} xl={3}>
           <Products>

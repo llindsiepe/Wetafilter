@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <>
       <Main>
-        <Grid container justifyContent={"space-around"} spacing={8}>
+        <Grid container justifyContent={"space-around"} spacing={3} alignContent="center">
           <Grid item xs={12} md={4} xl={3}>
             <LogotipoImage>
               <img src={Logotipo} width="152" height="61" />
