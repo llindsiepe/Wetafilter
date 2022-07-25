@@ -35,7 +35,9 @@ function Sobre() {
             <span style={{ color: "#ED3237" }}>& </span> <b>catálogo</b>
           </h1>
           <h5>Conheça alguns de nossos produtos</h5>
-          <Button title="Baixe o catálogo" />
+          <a href="https://drive.google.com/file/d/1BfMarwnabCCBEchfXH_JSwXOBh1DR8nY/view?usp=sharing">
+            <Button title="Baixe o catálogo" />
+          </a>
         </TextBanner>
       </Banner>
 
