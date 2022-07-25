@@ -31,8 +31,3 @@ export const ImageCard = styled("div")({
   width: "100%",
   textAlign: "center",
 });
-
-export const Download = styled("div")({
-  marginLeft: '50%',
-  transform: 'translate(-70%)'
-});

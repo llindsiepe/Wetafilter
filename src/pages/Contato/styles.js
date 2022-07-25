@@ -17,26 +17,44 @@ export const CardContact = styled("div")({
   background: "#EFEFEF",
   borderRadius: "0px 20px 20px 0px",
   width: "50%",
-  height: "40rem",
+  height: "45rem",
 
   h3: {
-    width: "40%",
+    width: "60%",
     textAlign: "center",
     marginLeft: "auto",
     marginRight: "auto",
     paddingTop: "8%",
+    marginBottom: "3rem",
     color: "#30456E",
+  },
+
+  input: {
+    width: "80%",
+    border: "none",
+    padding: "1rem",
+    marginBottom: "1rem",
+    borderRadius: "0.5rem",
+  },
+
+  textarea: {
+    width: "80%",
+    marginLeft: "auto",
+    marginRight: "auto",
+    border: "none",
+    padding: "1rem",
+    marginBottom: "1rem",
+    borderRadius: "0.5rem",
   },
 });
 
 export const ButtonSend = styled("button")({
-  marginTop: "5%",
   paddingTop: "1%",
   marginLeft: "auto",
   marginRight: "auto",
   border: "none",
   textAlign: "center",
-  width: "35rem",
+  width: "80%",
   height: 40,
   borderRadius: 5,
   backgroundColor: "#30456e",

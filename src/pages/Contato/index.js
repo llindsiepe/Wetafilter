@@ -56,23 +56,25 @@ function Sobre() {
         <h5>Tire suas dúvidas, solicite orçamentos e muito mais</h5>
       </Title>
 
-      <Grid container >
+      <Grid container>
         <Grid item xs={8} spacing={5}>
           <CardContact>
             <h3>
               <b>Cadastre-se</b> e entraremos em contato
             </h3>
             <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name="user_name" placeholder="Nome" /><br />
+              <input type="text" name="user_name" placeholder="Nome" />
+              <br />
+              <input type="email" name="user_email" placeholder="Email" />
+              <br />
+              <input type="text" name="number" placeholder="Número" />
+              <br />
 
-            <input type="email" name="user_email" placeholder="Email" /><br />
-            <input type="text" name="number" placeholder="Número" /><br />
-
-            <textarea name="message" placeholder="Menssagem" />
-            <br />
-            <br />
-            <ButtonSend>Enviar</ButtonSend>
-          </form>
+              <textarea name="message" placeholder="Menssagem" />
+              <br />
+              <br />
+              <ButtonSend>Enviar</ButtonSend>
+            </form>
           </CardContact>
         </Grid>
         <Grid item>

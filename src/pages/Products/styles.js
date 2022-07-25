@@ -12,6 +12,8 @@ export const TextBanner = styled("div")({
   marginLeft: "5%",
   width: "35%",
   color: "#30456E",
+
+  h5: { marginBottom: "2rem" },
 });
 
 export const BoxCards = styled("div")({
@@ -60,4 +62,9 @@ export const Cards = styled("div")({
   display: "flex",
   marginTop: "0%",
   marginRight: "5%",
+});
+
+export const Download = styled("div")({
+  marginLeft: "50%",
+  transform: "translate(-70%)",
 });

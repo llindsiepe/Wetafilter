@@ -6,20 +6,20 @@ import Avaliação from "../../imagens/avaliacao.png";
 
 import Button from "../Button/index.js";
 
-export default function CardProduct({ name, text }) {
+export default function CardProduct({ name, text, image }) {
   return (
     <>
       <Cards>
         <ImageCard>
-          <img src={ImageMockup} width="100%" />
+          <img src={image} width="100%" />
         </ImageCard>
         <TextCard>
           <h3>{name}</h3>
           <Texth6>{text}</Texth6>
         </TextCard>
-        <Download>
+        {/* <Download>
           <Button title="Download" />
-        </Download>
+        </Download> */}
       </Cards>
     </>
   );

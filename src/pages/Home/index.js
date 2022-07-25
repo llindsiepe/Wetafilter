@@ -3,6 +3,9 @@ import { useHistory } from "react-router-dom";
 
 import ImageAbout from "../../imagens/ImageAbout.png";
 import Avaliação from "../../imagens/Avaliação.png";
+import FiltroBag from "../../imagens/FiltroBag.jpg";
+import FiltroMulti from "../../imagens/FiltroMulti.png";
+import FiltroCesto from "../../imagens/FiltroCesto.png";
 
 import Navbar from "../../components/Navbar";
 import Rodape from "../../components/Rodape";
@@ -75,7 +78,7 @@ function Home() {
       <AboutUs>
         <ImageAboutUs>
           <Box display={{ xs: "none", sm: "none", md: "block" }}>
-            <img src={ImageAbout} width="450" height="550" />
+            <img src={ImageAbout} width="70%" />
           </Box>
         </ImageAboutUs>
         <TextAboutUs>
@@ -143,18 +146,21 @@ function Home() {
         <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Bag"
+            image={FiltroBag}
             text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
         <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Multi Bag"
+            image={FiltroMulti}
             text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
         <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Cesto"
+            image={FiltroCesto}
             text="Carcaça Filtro tipo Cesto, dispensam o uso de quaisquer ferramentas para sua manutenção além de possuírem uma construção bastante simples e robusta. "
           />
         </Grid>

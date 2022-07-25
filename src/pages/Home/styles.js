@@ -36,11 +36,12 @@ export const TextBannerH1 = styled("h1")({
 
 export const AboutUs = styled("div")({
   display: "flex",
+  alignItems: "center",
   marginBottom: "10%",
 });
 
 export const ImageAboutUs = styled("div")({
-  marginRight: "1%",
+  marginLeft: "5%",
 });
 
 export const TextAboutUs = styled("div")({
@@ -52,7 +53,7 @@ export const TextAboutUsH1 = styled("h1")({
 });
 
 export const TextAboutUsH6 = styled("h5")({
-  maxWidth: '80%'
+  maxWidth: "80%",
 });
 
 export const Products = styled("div")({
