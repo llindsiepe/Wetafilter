@@ -80,11 +80,13 @@ function Sobre() {
         <Grid item>
           <InfoContact>
             <Icons>
-              <img src={WhatsappC} width="70rem" height="70rem" />
+              <a href="https://api.whatsapp.com/send?phone=5511972041202&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es">
+                <img src={WhatsappC} width="70rem" height="70rem" />
+              </a>
               <h3>
                 <b>WhatsApp</b>
                 <br />
-                (11)00000-0000
+                (11) 97204-1202
               </h3>
             </Icons>
             <Icons>
@@ -98,8 +100,12 @@ function Sobre() {
             <Line />
             <Redes>
               <h3>Siga-nos nas redes sociais</h3>
-              <img src={FacebookC} style={{ marginRight: "4%" }} />
-              <img src={InstagramC} />
+              <a href="https://www.facebook.com/wetafilter">
+                <img src={FacebookC} style={{ marginRight: "4%" }} />
+              </a>
+              <a href="https://www.instagram.com/wetafilter_filtros/">
+                <img src={InstagramC} />
+              </a>
             </Redes>
           </InfoContact>
         </Grid>
