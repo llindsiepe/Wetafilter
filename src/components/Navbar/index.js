@@ -10,13 +10,13 @@ export default function Navbar() {
   return (
     <>
       <Main>
-        <Grid container justifyContent={"space-around"} spacing={3} alignContent="center">
-          <Grid item xs={12} md={4} xl={3}>
+        <Grid container justifyContent={"space-around"} >
+          <Grid item >
             <LogotipoImage>
               <img src={Logotipo} width="152" height="61" />
             </LogotipoImage>
           </Grid>
-          <Grid item xs={12} sm={12} md={4} xl={3}>
+          <Grid item >
             <Menu style={{ display: "flex" }}>
               <OptionMenu title={"Home"} url={"/"} />
               <OptionMenu title={"Sobre"} url={"/sobre"} />
@@ -24,7 +24,7 @@ export default function Navbar() {
               <OptionMenu title={"Contato"} url={"/contato"} />
             </Menu>
           </Grid>
-          <Grid item xs={12} md={4} xl={3}>
+          <Grid item>
             <Entrar>
               <a
                 href="https://api.whatsapp.com/send?phone=5511972041202&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es"

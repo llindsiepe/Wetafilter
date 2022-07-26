@@ -2,18 +2,17 @@ import * as React from "react";
 import { styled } from "@mui/system";
 
 export const Main = styled("div")({
-  width: "100%",
   minHeight: 90,
   height: '100%',
   backgroundColor: "white",
   display: "flex",
-  justifyContent: "space-between",
+  justifyContent: "space-around",
+  padding: '15px'
 });
 
 export const LogotipoImage = styled("div")({
   marginTop: "15px",
   marginBottom: "auto",
-  marginLeft: "10%",
 });
 
 export const Menu = styled("div")({

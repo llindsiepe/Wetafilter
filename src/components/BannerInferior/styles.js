@@ -2,18 +2,21 @@ import * as React from "react";
 import { styled } from "@mui/system";
 
 export const Main = styled("div")({
-  width: "100%",
-  height: 120,
+  minHeight: 120,
+  height: '100%',
+  padding: 10,
   backgroundColor: "#30456e",
   marginTop: "5%",
-  marginBottom: "5%"
+  marginBottom: "5%",
+  textAlign: 'center',
 });
 
 export const ImageBannerInf = styled("div")({
-  marginLeft: "10%",
-  marginRight: "2%",
+  marginLeft: "25%",
+  marginRight: "5%",
   marginBottom: "auto",
   marginTop: "auto",
+
 });
 
 export const TextBannerInf = styled("div")({
@@ -26,5 +29,5 @@ export const ButtonBannerInf = styled("div")({
   marginLeft: "auto",
   marginRight: "10%",
   marginBottom: "auto",
-  marginTop: "auto",
+  marginTop: "8%",
 });

@@ -41,8 +41,10 @@ function Home() {
   const history = useHistory();
   const [xs, setXs] = useState(
     useMediaQuery((theme) => theme.breakpoints.up("xs"))
+  ); 
+  const [sm, setSm] = useState(
+    useMediaQuery((theme) => theme.breakpoints.up("sm"))
   );
-  const sm = useMediaQuery((theme) => theme.breakpoints.up("sm"));
   const md = useMediaQuery((theme) => theme.breakpoints.up("md"));
   const lg = useMediaQuery((theme) => theme.breakpoints.up("lg"));
 
@@ -122,7 +124,7 @@ function Home() {
         </TextAboutUs>
       </AboutUs>
 
-      <BannerInferior xs={xs} />
+      <BannerInferior sm={sm} />
       <Grid container direction="row" spacing={3}>
         <Grid item xs={12} md={3} xl={3}>
           <Products>
