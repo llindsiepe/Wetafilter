@@ -15,9 +15,11 @@ export const Container = styled("div")({
 
 export const CardContact = styled("div")({
   background: "#EFEFEF",
-  borderRadius: "0px 20px 20px 0px",
-  width: "50%",
-  height: "45rem",
+  borderRadius: "20px",
+  minWidth: "50%",
+  minHeight: "45rem",
+  height: '100%',
+  padding: 15,
 
   h3: {
     width: "60%",
@@ -30,7 +32,7 @@ export const CardContact = styled("div")({
   },
 
   input: {
-    width: "80%",
+    width: "100%",
     border: "none",
     padding: "1rem",
     marginBottom: "1rem",
@@ -38,13 +40,14 @@ export const CardContact = styled("div")({
   },
 
   textarea: {
-    width: "80%",
+    width: "100%",
     marginLeft: "auto",
     marginRight: "auto",
     border: "none",
     padding: "1rem",
     marginBottom: "1rem",
     borderRadius: "0.5rem",
+    resize: 'vertical'
   },
 });
 
@@ -54,16 +57,16 @@ export const ButtonSend = styled("button")({
   marginRight: "auto",
   border: "none",
   textAlign: "center",
-  width: "80%",
+  width: "100%",
   height: 40,
   borderRadius: 5,
   backgroundColor: "#30456e",
   color: "white",
+
 });
 
 export const InfoContact = styled("div")({
-  marginLeft: "10%",
-  marginRight: "10%",
+
 });
 
 export const Icons = styled("div")({
@@ -82,5 +85,6 @@ export const Line = styled("div")({
 });
 
 export const Redes = styled("div")({
+  textAlign: 'center',
   h3: { color: "#30456e", marginBottom: "5%" },
 });

@@ -56,8 +56,8 @@ function Sobre() {
         <h5>Tire suas dúvidas, solicite orçamentos e muito mais</h5>
       </Title>
 
-      <Grid container>
-        <Grid item xs={8} spacing={5}>
+      <Grid container justifyContent={'space-around'} spacing={2}>
+        <Grid item>
           <CardContact>
             <h3>
               <b>Cadastre-se</b> e entraremos em contato
