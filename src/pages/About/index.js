@@ -1,6 +1,6 @@
 import React from "react";
 
-import Peças from "../../imagens/imagepack.png";
+import Peças from "../../imagens/filtro.jpeg";
 import Avaliação from "../../imagens/avaliacao.png";
 import rastreamento from "../../imagens/rastreamento.png";
 import boxgroup from "../../imagens/boxgroup.png";
@@ -22,15 +22,16 @@ import {
   TextPoliticaH6,
   Cards,
 } from "./styles";
+import { Box } from "@mui/material";
 
 function Sobre() {
   return (
     <>
       <Navbar />
       <Banner>
-        <div>
-          <img src={Peças} />
-        </div>
+        <Box display={{ xs: "none", sm: "none", md: "block" }}>
+          <img width={800} style={{ paddingLeft: '5%' }} src={Peças} />
+        </Box>
         <TextBanner>
           <img src={Avaliação} />
           <h1>
