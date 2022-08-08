@@ -80,7 +80,7 @@ function Sobre() {
         <Grid item>
           <InfoContact>
             <Icons>
-              <a href="https://api.whatsapp.com/send?phone=5511972041202&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es">
+              <a href="https://api.whatsapp.com/send?phone=551124043880&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es">
                 <img src={WhatsappC} width="70rem" height="70rem" />
               </a>
               <h3>
