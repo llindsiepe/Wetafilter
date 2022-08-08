@@ -34,7 +34,7 @@ export default function BannerInferior({sm}) {
           <Grid item>
             <ButtonBannerInf>
               <a
-                href="https://api.whatsapp.com/send?phone=5511972041202&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es"
+                href="https://api.whatsapp.com/send?phone=551124043880&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es"
                 target="_blank"
               >
                 <ButtonClean title={"ATENDIMENTO"} />
