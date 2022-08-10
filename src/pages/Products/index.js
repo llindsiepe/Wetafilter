@@ -49,13 +49,6 @@ function Sobre() {
         <Grid item>
           <CardProduct
             name="Filtro Bag"
-            image={FiltroBagNova}
-            text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
-          />
-        </Grid>
-        <Grid item>
-          <CardProduct
-            name="Filtro Bag"
             image={FiltroBag}
             text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
