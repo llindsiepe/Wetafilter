@@ -86,7 +86,7 @@ function Sobre() {
               <h3>
                 <b>WhatsApp</b>
                 <br />
-                (11) 97204-1202
+                (11) 2404-3880
               </h3>
             </Icons>
             <Icons>
