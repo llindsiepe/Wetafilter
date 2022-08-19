@@ -3,7 +3,7 @@ import React from "react";
 import Peças from "../../imagens/filtro.jpeg";
 import Avaliação from "../../imagens/avaliacao.png";
 import FiltroBagNova from "../../imagens/nova.jpeg";
-import FiltroBag from "../../imagens/filtro_bag2.jpeg";
+import FiltroBag from "../../imagens/bag.png";
 import FiltroMulti from "../../imagens/FiltroMulti.png";
 import FiltroCesto from "../../imagens/FiltroCesto.png";
 import FiltroAut from "../../imagens/FiltroAut.png";

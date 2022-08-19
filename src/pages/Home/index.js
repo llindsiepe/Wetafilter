@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 
 import ImageAbout from "../../imagens/ImageAbout.png";
 import Avaliação from "../../imagens/Avaliação.png";
-import FiltroBag from "../../imagens/FiltroBag.jpg";
+import FiltroBag from "../../imagens/bag.png";
 import FiltroMulti from "../../imagens/FiltroMulti.png";
 import FiltroCesto from "../../imagens/FiltroCesto.png";
 
@@ -41,7 +41,7 @@ function Home() {
   const history = useHistory();
   const [xs, setXs] = useState(
     useMediaQuery((theme) => theme.breakpoints.up("xs"))
-  ); 
+  );
   const [sm, setSm] = useState(
     useMediaQuery((theme) => theme.breakpoints.up("sm"))
   );
