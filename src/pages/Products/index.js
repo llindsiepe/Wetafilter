@@ -82,7 +82,7 @@ function Sobre() {
           <CardProduct
             name="Elementos Filtrantes"
             image={Filtrantes}
-            text="Projetado para operar na remoção de particulados sólidos dos líquidos. Seu projeto inovador permite filtração contínua mesmo durante a operação de autolimpeza."
+            text="Nossos elementos filtrantes atendem as mais críticas condições de aplicação, adequados a cada sistema de operação, com elementos filtrantes de fibras sintéticas e naturais em diferentes micragens. Atendendo a necessidade do cliente e nacionalizando produtos com economia e tecnologia."
           />
         </Grid>
 
@@ -90,10 +90,10 @@ function Sobre() {
           <CardProduct
             name="Filtro Bag Abraçadeira"
             image={Abracadeira}
-            text="Projetado para operar na remoção de particulados sólidos dos líquidos. Seu projeto inovador permite filtração contínua mesmo durante a operação de autolimpeza."
+            text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
-      
+
         <Grid item>
           <CardProduct
             name="Filtro Cartucho"
