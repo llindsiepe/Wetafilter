@@ -70,7 +70,7 @@ function Sobre() {
               <input type="text" name="number" placeholder="Número" />
               <br />
 
-              <textarea name="message" placeholder="Menssagem" />
+              <textarea name="message" placeholder="Mensagem" />
               <br />
               <br />
               <ButtonSend>Enviar</ButtonSend>
