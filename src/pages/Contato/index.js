@@ -34,7 +34,7 @@ function Sobre() {
         "service_xjni3hb",
         "template_zfnhszj",
         form.current,
-        "bn4BnWI20PDvSZDCj"
+        "MqFJMZw371qxWlUe5"
       )
       .then(
         (result) => {
@@ -56,7 +56,7 @@ function Sobre() {
         <h5>Tire suas dúvidas, solicite orçamentos e muito mais</h5>
       </Title>
 
-      <Grid container justifyContent={'space-around'} spacing={2}>
+      <Grid container justifyContent={"space-around"} spacing={2}>
         <Grid item>
           <CardContact>
             <h3>
