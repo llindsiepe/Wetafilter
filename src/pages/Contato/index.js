@@ -22,9 +22,12 @@ import {
 import { Grid, TextField } from "@mui/material";
 
 import emailjs from "emailjs-com";
+import { useHistory } from "react-router-dom";
 
 function Sobre() {
   const form = useRef();
+
+  const history = useHistory();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -38,6 +41,7 @@ function Sobre() {
       )
       .then(
         (result) => {
+          history.push("/");
           alert("Mensagem enviada com sucesso");
         },
         (error) => {
