@@ -31,17 +31,18 @@ function Sobre() {
 
     emailjs
       .sendForm(
-        "service_xjni3hb",
-        "template_zfnhszj",
+        "service_rlyph99",
+        "template_i4psy73",
         form.current,
         "MqFJMZw371qxWlUe5"
       )
       .then(
         (result) => {
-          alert("mensagem enviada com sucesso");
+          alert("Mensagem enviada com sucesso");
         },
         (error) => {
-          alert("falha ao mandar mensagem");
+          console.log(error);
+          alert("Falha ao mandar mensagem");
         }
       );
   };
