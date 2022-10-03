@@ -25,9 +25,24 @@ export default function Card() {
             <Info>
               <img src={Logotipo} style={{ marginBottom: "10%" }} />
               <Redes>
-                <img src={FacebookC} style={{ marginRight: "5%" }} />
-                <img src={InstagramC} style={{ marginRight: "5%" }} />
-                <img src={WhatsAppC} width="50rem" height="50rem" />
+                <a
+                  href="https://www.facebook.com/wetafilter"
+                  style={{ marginRight: "5%" }}
+                >
+                  <img src={FacebookC} />
+                </a>
+                <a
+                  href="https://www.instagram.com/wetafilter_filtros/"
+                  style={{ marginRight: "5%" }}
+                >
+                  <img src={InstagramC} style={{ marginRight: "5%" }} />
+                </a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=551124043880&text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es"
+                  style={{ marginRight: "5%" }}
+                >
+                  <img src={WhatsAppC} width="50rem" height="50rem" />
+                </a>
               </Redes>
             </Info>
           </Grid>
