@@ -65,6 +65,18 @@ export const TextProducts = styled("div")({
   marginTop: "20%",
 });
 
+export const TextProduct = styled("div")({
+  marginLeft: "10%",
+  marginTop: "20%",
+});
+
+export const Icons = styled("div")({
+  display: "flex",
+  gap: "10%",
+  alignItems: "center",
+  marginLeft: "20rem",
+});
+
 export const TextProductsH6 = styled("h6")({
   width: "60%",
   marginTop: "2%",

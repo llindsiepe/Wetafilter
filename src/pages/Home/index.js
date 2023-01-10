@@ -7,6 +7,17 @@ import FiltroBag from "../../imagens/bag.png";
 import FiltroMulti from "../../imagens/FiltroMulti.png";
 import FiltroCesto from "../../imagens/FiltroCesto.png";
 
+import Logo1 from "../../imagens/Logo1.png";
+import Logo2 from "../../imagens/Logo2.png";
+import Logo3 from "../../imagens/Logo3.png";
+import Logo4 from "../../imagens/Logo4.png";
+import Logo5 from "../../imagens/Logo5.png";
+import Logo6 from "../../imagens/Logo6.png";
+import Logo7 from "../../imagens/Logo7.png";
+import Logo8 from "../../imagens/Logo8.png";
+import Logo9 from "../../imagens/Logo9.png";
+
+
 import Navbar from "../../components/Navbar";
 import Rodape from "../../components/Rodape";
 import ButtonClean from "../../components/ButtonClean";
@@ -32,10 +43,13 @@ import {
   Qualities,
   QualitiesTitle,
   QualitiesData,
+  TextProduct,
 } from "./styles.js";
 import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import useMediaQuery from "@mui/material/useMediaQuery";
+
+import { Icons } from "./styled"
 
 function Home() {
   const history = useHistory();
@@ -145,6 +159,7 @@ function Home() {
             </TextProducts>
           </Products>
         </Grid>
+
         <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Bag"
@@ -167,6 +182,29 @@ function Home() {
           />
         </Grid>
       </Grid>
+
+      <Grid container direction="row" spacing={3}>
+          <Grid item xs={12} md={6} xl={12}>
+                <TextProduct>
+                  <h2>Conheça alguns de nossos parceiros</h2>
+                </TextProduct>
+                <Icons>
+                  <img src={Logo1} />
+                  <img src={Logo2} />
+                  <img src={Logo3} />
+                  <img src={Logo4} />
+                </Icons>
+                <Icons>
+                  <img src={Logo5} />
+                  <img src={Logo6} />
+                  <img src={Logo7} />
+                </Icons>
+                <Icons>
+                  <img src={Logo8} />
+                  <img src={Logo9} />
+                </Icons>
+          </Grid>
+        </Grid>
 
       <Rodape />
     </>
