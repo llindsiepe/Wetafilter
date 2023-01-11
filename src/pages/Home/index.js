@@ -186,7 +186,7 @@ function Home() {
       <Grid container direction="row" spacing={3}>
           <Grid item xs={12} md={6} xl={12}>
                 <TextProduct>
-                  <h2>Conheça alguns de nossos parceiros</h2>
+                  <h2>Conheça alguns de nossos clientes</h2>
                 </TextProduct>
                 <Icons>
                   <img src={Logo1} />
