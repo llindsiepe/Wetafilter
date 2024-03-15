@@ -164,14 +164,14 @@ function Home() {
           <CardProduct
             name="Filtro Bag"
             image={FiltroBag}
-            text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
+            text="Devido à sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos segmentos alimentícios, farmacêuticos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
         <Grid item xs={12} md={3} xl={3}>
           <CardProduct
             name="Filtro Multi Bag"
             image={FiltroMulti}
-            text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
+            text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos segmentos alimentícios, farmacêuticos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
         <Grid item xs={12} md={3} xl={3}>
@@ -197,9 +197,6 @@ function Home() {
                 <Icons>
                   <img src={Logo5} />
                   <img src={Logo6} />
-                  <img src={Logo7} />
-                </Icons>
-                <Icons>
                   <img src={Logo8} />
                   <img src={Logo9} />
                 </Icons>

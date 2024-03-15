@@ -39,7 +39,7 @@ function Sobre() {
             <span style={{ color: "#ED3237" }}>& </span> <b>catálogo</b>
           </h1>
           <h5>Conheça alguns de nossos produtos</h5>
-          <a href="https://drive.google.com/file/d/1BfMarwnabCCBEchfXH_JSwXOBh1DR8nY/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/197MMsIWlDkUpMHd5Bw29G3UQ9r1WQ2FW/view?usp=sharing">
             <Button title="Baixe o catálogo" />
           </a>
         </TextBanner>
@@ -50,7 +50,7 @@ function Sobre() {
           <CardProduct
             name="Filtro Bag"
             image={FiltroBag}
-            text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
+            text="Devido à sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos segmentos alimentícios, farmacêuticos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
 
@@ -58,7 +58,7 @@ function Sobre() {
           <CardProduct
             name="Filtro Multi Bag"
             image={FiltroMulti}
-            text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
+            text="Carcaça Filtro tipo Multi Bag, projetado para filtragem de produtos líquidos nos segmentos alimentícios, farmacêuticos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
 
@@ -90,7 +90,7 @@ function Sobre() {
           <CardProduct
             name="Filtro Bag Abraçadeira"
             image={Abracadeira}
-            text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos seguimentos alimentícios, farmacêuticos, químicos, químicos, refinarias, usinas, água, tinta entre outros."
+            text="Devido á sua grande versatilidade de aplicações, os filtros tipo bag, projetado para filtragem de produtos líquidos nos segmentos alimentícios, farmacêuticos, químicos, refinarias, usinas, água, tinta entre outros."
           />
         </Grid>
 
